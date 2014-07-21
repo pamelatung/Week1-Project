@@ -175,3 +175,33 @@ footer {
 .clearfix {
 	clear:both;
 }
+
+/*================
+RESPONSIVE
+================*/
+
+@media (max-width:990px) {
+}
+
+@media (max-width:767px) {
+	body {
+		background: url(images/scenic/trees-1-bw-mobile.jpg);
+		background-attachment:fixed;
+		background-repeat: no-repeat;
+		background-color: #666;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	.container {
+		width: 25%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width:480px) {
+
+}
