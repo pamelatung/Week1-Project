@@ -182,17 +182,30 @@ footer {
 RESPONSIVE
 ================*/
 
-@media (max-width:990px) {
-}
-
-@media (max-width:767px) {
+@media (max-width:1136px) {
 	body {
-		background: url(images/scenic/trees-1-bw-mobile.jpg);
-		background-attachment:fixed;
+		background: url(images/scenic/trees-1-bw-tablet.jpg);
+		background-attachment:scroll;
 		background-repeat: no-repeat;
 		background-color: #666;
 		font-size: 14px;
 	}
+	.profile {
+		padding:45px 0;
+	}
+	.prSide {
+		float:none;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.profile img {
+		display:block;
+		float: none;
+		width: 30%;
+		margin: 0 auto;
+}
+
+@media (max-width:767px) {
 	.container {
 		width: 90%;
 		margin: 0 auto;
@@ -240,6 +253,12 @@ RESPONSIVE
 }
 
 @media (max-width:480px) {
+	body {
+		background: url(images/scenic/trees-1-bw-mobile.jpg);
+		background-attachment:scroll;
+		background-repeat: no-repeat;
+	}
+	.container {
 		.container {
 			width: 90%;
 			margin: 0 auto;
